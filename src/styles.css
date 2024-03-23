@@ -85,6 +85,33 @@ section h2 {
     font-size: 14px;
 }
 
+/* Comment Form Styles */
+form input, form textarea {
+    width: 95%;
+    padding: 12px;
+    margin: 8px auto 8px auto;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: block;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #FFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
 /* Footer Styles */
 footer {
     background-color: #333;
